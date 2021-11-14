@@ -1,0 +1,20 @@
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
+  border-left: 1px solid #999; /* Параметры линии слева */
+  border-bottom: 1px solid #999; /* Параметры линии снизу */
+  padding-left: 3px; /* Отступ от линии слева до текста  */
+  padding-bottom: 3px; /* Отступ от линии снизу до текста  */
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.gradient-text {
+  font-family: cursive;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #f00 33%, #0048ff 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
